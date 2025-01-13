@@ -192,27 +192,27 @@ void ArUco::drawEnnemy(float size) {
 
     
     //Corps
-    glColor3f(0.5, 0.5, 0.5);
+    glColor3f(0.0, 0.8, 0.0);
     glVertex3f(-halfSize, halfSize, 0.02);
     glVertex3f(-halfSize, -halfSize, 0.02);
     glVertex3f(halfSize, -halfSize, 0.02);
     glVertex3f(halfSize, halfSize, 0.02);
     
     //Jambe1
-    glColor3f(0.5, 0.5, 0.5);
+    glColor3f(0.0, 0.8, 0.0);
     glVertex3f(-halfSize/2, -halfSize, 0.02);
     glVertex3f(-3 * halfSize / 2, -halfSize, 0.02);
     glVertex3f(-3 * halfSize / 2, -3 * halfSize / 2, 0.02);
     glVertex3f(-halfSize/2, -3 * halfSize/2, 0.02);
 
     //Jambe2
-    glColor3f(0.5, 0.5, 0.5);
+    glColor3f(0.0, 0.8, 0.0);
     glVertex3f(halfSize / 2, -halfSize, 0.02);
     glVertex3f(halfSize / 2, -3*halfSize/2, 0.02);
     glVertex3f(3 * halfSize / 2, -3 * halfSize / 2, 0.02);
     glVertex3f(3 * halfSize / 2, -halfSize, 0.02);
 
-    glColor3f(1.0, 1.0, 1.0);
+    glColor3f(1.0, 0.0, 1.0);
     //Oeuil1
     glVertex3f(-halfSize/4, halfSize/3, 0.02);
     glVertex3f(-halfSize/2, halfSize/3, 0.02);
